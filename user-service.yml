@@ -1,11 +1,14 @@
 server:
-  port: 9001
+  port: 8081
 spring:
   datasource:
-    url: jdbc:h2:mem:userdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: password
+    url: jdbc:mysql://localhost:3306/microservice-user
+    username: root
+    password: Admin301188
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
 eureka:
   client:
     service-url:

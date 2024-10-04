@@ -14,4 +14,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 app:
-  message: "Hello from User Service"
+  message: "Hello from User Service 1"
